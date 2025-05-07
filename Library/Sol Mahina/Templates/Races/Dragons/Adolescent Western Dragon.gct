@@ -194,7 +194,7 @@
 							"template_picker": {
 								"type": "count",
 								"qualifier": {
-									"compare": "is",
+									"compare": "at_least",
 									"qualifier": 1
 								}
 							},
@@ -237,10 +237,29 @@
 									"calc": {
 										"points": 1
 									}
+								},
+								{
+									"id": "t2gjbClcdSB4ATUDD",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups\\Power Ups Traits.adq",
+										"id": "tJT-1paS1sUzrU_1S"
+									},
+									"name": "Feathers",
+									"reference": "PU2:10",
+									"tags": [
+										"Exotic",
+										"Perk",
+										"Physical"
+									],
+									"base_points": 1,
+									"calc": {
+										"points": 1
+									}
 								}
 							],
 							"calc": {
-								"points": 2
+								"points": 3
 							}
 						},
 						{
@@ -392,7 +411,7 @@
 						}
 					],
 					"calc": {
-						"points": 110
+						"points": 111
 					}
 				},
 				{
@@ -556,7 +575,7 @@
 					"can_level": true,
 					"levels": 1,
 					"calc": {
-						"points": 21
+						"points": 15
 					}
 				},
 				{
@@ -739,7 +758,7 @@
 						}
 					],
 					"calc": {
-						"points": 11
+						"points": 9
 					}
 				},
 				{
@@ -1424,7 +1443,7 @@
 				}
 			],
 			"calc": {
-				"points": 390
+				"points": 383
 			}
 		}
 	]
